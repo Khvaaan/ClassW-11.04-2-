@@ -3,10 +3,13 @@
 #include <ctime>
 using namespace std;
 
+<<<<<<< HEAD
+=======
 int inter(int a, int b){
 	return a*b;
 }
 
+>>>>>>> main
 int main(){
 	srand(time(NULL));
 	int mass [100];
@@ -37,5 +40,9 @@ int main(){
 			}
 		}
 	}
-	cout<<"Triples = "<< tri <<'\t'<<"Doubles = "<<dva;
+	cout<<"Triples = "<< tri <<'\t'<<"Doubles = "<<dva; 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> main
