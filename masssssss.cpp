@@ -7,6 +7,10 @@ int inter(int a, int b){
 	return a*b;
 }
 
+int summ(int a, int b){ // Khvan
+	return a + b;
+}
+
 int main(){
 	srand(time(NULL));
 	int mass [100];
